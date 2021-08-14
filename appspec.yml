@@ -1,0 +1,22 @@
+version: 0.0
+os: linux
+files:
+  - source: /aws
+    destination: /var/aws/codedeploy/pbbanner
+hooks:
+  ApplicationStop:
+    - location: /aws/stop_container.sh
+      timeout: 300
+      runas: root
+  BeforeInstall:
+    - location: /aws/pull_image.sh
+      timeout: 600
+      runas: root
+  ApplicationStart:
+    - location: /aws/start_container.sh
+      timeout: 600
+      runas: root
+  ValidateService:
+    - location: /aws/validate_container.sh
+      timeout: 300
+      runas: root
