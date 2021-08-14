@@ -4,7 +4,7 @@
       "enabled": false,
       "events": [ ]
    },
-   "deploymentGroupName": "pbbanner",
+   "deploymentGroupName": "panterasbox",
    "description": "Deploy pbbanner to banner.panterasbox.com.",
    "fileExistsBehavior": "DISALLOW",
    "ignoreApplicationStopFailures": false,
