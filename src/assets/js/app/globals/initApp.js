@@ -26,7 +26,7 @@ function buildCamera() {
         1000
     );
 
-    camera.position.set(0, 5, 12);
+    camera.position.set(0, 5, 6);
 
     return camera;
 }

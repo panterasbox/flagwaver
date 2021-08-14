@@ -143,6 +143,7 @@ class App extends Component {
                 <AppModules />
 
                 <div className="site-wrapper" aria-hidden={isDrawerOpen}>
+                    {/*
                     <header className="site-header" role="banner">
                         <div className="site-header-layout">
                             <div className="site-header-center">
@@ -185,6 +186,7 @@ class App extends Component {
                             </div>
                         </div>
                     </header>
+                    */} 
 
                     <main className="site-main" role="main">
                         <div className="app-viewer">
@@ -193,6 +195,7 @@ class App extends Component {
                             <AppCanvas />
                         </div>
 
+                        {/* 
                         <section className="bottom-app-bar" aria-label="Toolbar">
                             {(appMode === AppMode.EDIT || appMode === AppMode.ABOUT) ? (
                                 <Fragment>
@@ -222,6 +225,7 @@ class App extends Component {
                                 </div>
                             ) : null}
                         </section>
+                        */} 
                     </main>
                 </div>
 

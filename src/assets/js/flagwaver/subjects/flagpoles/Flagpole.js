@@ -1,6 +1,6 @@
 import THREE from 'three';
 
-import { Side, FlagpoleType } from '../../constants';
+import { Side, FlagpoleType, VerticalHoisting } from '../../constants';
 import { createPoleGeometryTypeI } from './utils/FlagpoleGeometryHelpers';
 
 /**
@@ -46,11 +46,12 @@ export default class Flagpole {
     static defaults = (() => {
         const o = {};
 
-        o.flagpoleType    = FlagpoleType.VERTICAL;
-        o.poleWidth       = 0.076;
-        o.poleLength      = 6;
+        o.flagpoleType    = FlagpoleType.CROSSBAR;
+        o.verticalHoisting = VerticalHoisting.NONE;
+        o.poleWidth       = 0.0;
+        o.poleLength      = 6.50;
         o.poleCapSize     = o.poleWidth * 4 / 3;
-        o.crossbarWidth   = o.poleWidth * 2 / 3;
+        o.crossbarWidth   = 0.076 * 2 / 3;
         o.crossbarLength  = 1.2;
         o.crossbarCapSize = o.crossbarWidth * 3 / 2;
         o.poleTopOffset   = 0.1;

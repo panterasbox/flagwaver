@@ -7,7 +7,7 @@ export default {
       PUBLIC_URL: 'http://localhost:8000'
     },
     production: {
-      PUBLIC_URL: 'https://krikienoid.github.io/flagwaver'
+      PUBLIC_URL: 'https://banner.panterasbox.com'
     }
   },
   server: {

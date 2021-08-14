@@ -1,0 +1,5 @@
+{
+    "applicationName": "pbbanner",
+    "source": "",
+    "s3Location": "s3://panterasbox-artifacts/pbbanner-%TAG%.zip"
+}

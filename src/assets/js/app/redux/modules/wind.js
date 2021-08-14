@@ -16,8 +16,8 @@ export function setWindOptions(value) {
 const initialState = {
     enabled: true,
     controlled: false,
-    direction: 270,
-    speed: 10
+    direction: 300,
+    speed: 3
 };
 
 export default function reducer(state = initialState, action) {

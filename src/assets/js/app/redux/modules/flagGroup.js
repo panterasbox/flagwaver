@@ -28,8 +28,8 @@ const initialState = {
     mass:               0.11,
     granularity:        10,
     imageSrc:           '',
-    flagpoleType:       FlagpoleType.VERTICAL,
-    verticalHoisting:   VerticalHoisting.TOP_RIGHT
+    flagpoleType:       FlagpoleType.CROSSBAR,
+    verticalHoisting:   VerticalHoisting.NONE
 };
 
 export default function reducer(state = initialState, action) {

@@ -11,9 +11,12 @@
 
 .bg-classic {
     @include background-image-full(#566c73, (
-        "../img/bg-classic-768x768.jpg",
-        "../img/bg-classic-1024x1024.jpg",
-        "../img/bg-classic-1440x1080.jpg"
+        // "../img/bg-classic-768x768.jpg",
+        // "../img/bg-classic-1024x1024.jpg",
+        // "../img/bg-classic-1440x1080.jpg"
+        "../img/bg-monastery.jpg",
+        "../img/bg-monastery.jpg",
+        "../img/bg-monastery.jpg"
     ));
 
     @include background-image-full-size(1440px, 1080px);

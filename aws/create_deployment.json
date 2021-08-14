@@ -1,0 +1,20 @@
+{
+   "applicationName": "pbbanner",
+   "autoRollbackConfiguration": { 
+      "enabled": false,
+      "events": [ ]
+   },
+   "deploymentGroupName": "pbbanner",
+   "description": "Deploy pbbanner to banner.panterasbox.com.",
+   "fileExistsBehavior": "DISALLOW",
+   "ignoreApplicationStopFailures": false,
+   "revision": { 
+      "revisionType": "S3",
+      "s3Location": { 
+         "bucket": "panterasbox-artifacts",
+         "bundleType": "zip",
+         "key": "pbbanner-%TAG%.zip"
+      }
+   },
+   "updateOutdatedInstancesOnly": false
+}
