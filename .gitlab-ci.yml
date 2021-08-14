@@ -186,6 +186,7 @@ production_ec2:
   image: "registry.gitlab.com/gitlab-org/cloud-deploy/aws-ec2:latest"
   script:
     - sed -i "s/%TAG%/$CI_COMMIT_SHA/g" aws/*
+    - cat aws/s3_push.json
     - gl-ec2 push-to-s3
     - gl-ec2 deploy-to-ec2
   stage: production
