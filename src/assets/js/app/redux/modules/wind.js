@@ -17,7 +17,7 @@ const initialState = {
     enabled: true,
     controlled: false,
     direction: 300,
-    speed: 3
+    speed: 2.5
 };
 
 export default function reducer(state = initialState, action) {

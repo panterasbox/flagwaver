@@ -44,7 +44,7 @@ export default class Wind {
 
     static defaults = {
         direction:              new THREE.Vector3(1, 0, 0),
-        speed:                  3, // m/s
+        speed:                  2.5, // m/s
         directionFn:            WindModifiers.blowFromLeftDirection,
         speedFn:                WindModifiers.constantSpeed
     };
